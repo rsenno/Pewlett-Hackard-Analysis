@@ -37,3 +37,12 @@ GROUP BY title
 ORDER BY count DESC;
 
 SELECT * FROM retiring_titles;
+
+-- Some queries and table creations
+-- were lost here during an unplanned forced reboot.
+-- One additional query was performed after that event
+-- as follows: 
+--	Additional query getting total employee turnover. 
+SELECT * FROM retiring_titles;
+SELECT SUM (count) AS total
+FROM retiring_titles;
